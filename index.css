@@ -1,0 +1,141 @@
+@media (min-width:360px) and (max-width:640px){
+    .menu{
+        width: 500px;
+    }
+    .main2{
+        width: 500px;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main3{
+        width: 500px;
+        height: 430px;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .main3 div {
+        height: 150px;
+        width: 400px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    .box1{
+        position: absolute;
+    }
+    .box2{
+        position: absolute;
+        top: 175px;
+        right: 430px;
+    }
+    .box3{
+        position: absolute;
+        top: 140px;
+    }
+    .box4{
+        position: absolute;
+        top: 320px;
+        right: 430px;
+    }
+}
+body{
+    background-image: url(./andrzej-kryszpiniuk-D1IS5s5O9xo-unsplash.jpg);
+    background-size: cover;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+.can{
+    height: 50px;
+    width: 50px;
+}
+a{
+    color: white;
+    margin-right: 30px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu3{
+    height: 30px;
+    width: 30px;
+}
+.main3{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.main2{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.a{
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+}
+p{
+    color: white;
+}
+.box1,.box2,.box3,.box4{
+    height: 210px;
+    width: 190px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    position: relative;
+    transition: ease;
+    transition-duration: 0.5s;
+}
+.box1:hover{
+    margin-top: 5px;
+}
+.box2:hover{
+    margin-top: 5px;
+}
+.box3:hover{
+    margin-top: 5px;
+}
+.box4:hover{   
+   margin-top: 5px;
+}
+.box1{
+    background-image: url(./chris-khani-j6i3vnFwsHQ-unsplash.jpg);
+    background-size: cover;
+}
+.box2{
+    background-image: url(./isabella-juskova--XwQFmuiMts-unsplash.jpg);
+    background-size: cover;
+}
+.box3{
+    background-image: url(./tatiana-zanon-VP2mjtJqWvY-unsplash.jpg);
+    background-size: cover;
+}
+.box4{
+    background-image: url(./parker-hilton-VtGLcivTXtk-unsplash.jpg);
+    background-size: cover;
+}
+.a1{
+    font-size: smaller;
+}
+button{
+    color: black;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 160px;  
+    font-weight: bold;
+    font-size: small;
+    padding: 5px;
+    margin-top: 15px;
+}
